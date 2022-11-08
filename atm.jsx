@@ -54,6 +54,7 @@ const ATMDeposit = ({ onChange, isDeposit, isValid }) => {
       <form onSubmit={handleSubmit}>
         <>
           <h2 id="total">{status}</h2>
+          <button onClick= >Deposit</button>
           <label>Select an action below to continue</label>
           <select onChange={(e) => handleModeSelect(e)} name="mode" id="mode-select">
             <option id="no-selection" value=""></option>
